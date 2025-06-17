@@ -184,7 +184,7 @@ export default function Hero() {
                 className="max-h-24 w-full object-contain mb-6"
               />
               <p className="text-gray-700 leading-relaxed">
-                Innovates accessible speech technology and to help you master
+                Innovates accessible speech technology to help you master
                 language pronunciation using classic movie scenes.
               </p>
             </div>
