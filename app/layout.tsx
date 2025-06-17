@@ -47,13 +47,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://womenbuilders.dev", // Update with your actual domain
+    url: "https://womenbuilders.dev",
     title: "Women Builders: The After Party | YC AI Startup School",
     description:
       "Join us for an afterparty following Y Combinator's YC AI Startup School on June 18, 2025. Come hang out with interns, engineers, and fellow founders & builders!",
     images: [
       {
-        url: "/hello.png", // Your hero image
+        url: "/WomenBuilders.jpeg",
         width: 1200,
         height: 630,
         alt: "Women Builders After Party - June 18, 2025",
@@ -66,21 +66,16 @@ export const metadata: Metadata = {
     title: "Women Builders: The After Party | YC AI Startup School",
     description:
       "Join us for an afterparty following Y Combinator's YC AI Startup School on June 18, 2025. Demo sessions, networking, and more!",
-    images: ["/hello.png"],
-    creator: "@womenbuilders", // Update with actual Twitter handle
+    images: ["/WomenBuilders.jpeg"],
   },
   viewport: {
     width: "device-width",
     initialScale: 1,
     maximumScale: 1,
   },
-  verification: {
-    // google: "your-google-site-verification-code", // Add when you have it
-    // yandex: "your-yandex-verification-code", // Add if needed
-  },
   category: "technology",
   alternates: {
-    canonical: "https://womenbuilders.dev", // Update with your actual domain
+    canonical: "https://womenbuilders.dev",
   },
 };
 
