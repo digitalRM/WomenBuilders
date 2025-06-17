@@ -53,7 +53,7 @@ export const metadata: Metadata = {
       "Join us for an afterparty following Y Combinator's YC AI Startup School on June 18, 2025. Come hang out with interns, engineers, and fellow founders & builders!",
     images: [
       {
-        url: "/WomenBuilders.jpeg",
+        url: "/openGraph.png",
         width: 1200,
         height: 630,
         alt: "Women Builders After Party - June 18, 2025",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     title: "Women Builders: The After Party | YC AI Startup School",
     description:
       "Join us for an afterparty following Y Combinator's YC AI Startup School on June 18, 2025. Demo sessions, networking, and more!",
-    images: ["/WomenBuilders.jpeg"],
+    images: ["/openGraph.png"],
   },
   viewport: {
     width: "device-width",
