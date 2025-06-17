@@ -192,7 +192,7 @@ export default function Hero() {
             <div className="bg-white rounded-2xl p-8 border text-center h-full flex flex-col justify-between">
               <img
                 alt="Same.dev"
-                src="/Same.svg"
+                src="/same.svg"
                 width={248}
                 height={120}
                 className="max-h-9 w-full object-contain mb-6 mt-8"
