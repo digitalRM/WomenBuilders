@@ -31,7 +31,7 @@ export default function Hero() {
   return (
     <div className="relative bg-white">
       <section className="relative min-h-[1340px] flex flex-col bg-[url('/hello.png')] bg-cover bg-center p-4">
-        <div className="absolute h-96 w-full right-0 bottom-0 bg-gradient-to-t from-white to-transparent" />
+        <div className="absolute h-[705px] w-full right-0 bottom-0 bg-gradient-to-t from-white via-transparent to-transparent" />
         <div className="flex flex-col items-center justify-center mt-56">
           <h1 className="text-4xl md:text-7xl font-semibold text-black tracking-tighter font-inter">
             Women Builders
