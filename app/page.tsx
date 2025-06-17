@@ -238,7 +238,7 @@ export default function Hero() {
           <h1 className="text-4xl md:text-7xl font-semibold text-black tracking-tighter font-inter text-center">
             See You Soon! 😊
           </h1>
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed text-balance mt-4">
+          <p className="text-lg text-center md:text-xl text-gray-700 leading-relaxed text-balance mt-4">
             Questions? Reach out to Hawa for any questions about the event!
           </p>
         </div>
