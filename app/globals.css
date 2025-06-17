@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.color-bg {
+  background-image: radial-gradient(at 27% 37%, #d7a8e1 0, transparent 0),
+    radial-gradient(at 97% 21%, #d7a8e1 0, transparent 50%),
+    radial-gradient(at 52% 99%, #6295ef 0, transparent 50%),
+    radial-gradient(at 10% 29%, #9972d7 0, transparent 50%),
+    radial-gradient(at 97% 96%, #95c6e4 0, transparent 50%),
+    radial-gradient(at 33% 50%, #ffffff 0, transparent 50%),
+    radial-gradient(at 79% 53%, #ffffff00 0, transparent 50%);
+}
