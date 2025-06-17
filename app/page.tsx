@@ -138,7 +138,7 @@ export default function Hero() {
       </div>
 
       <div className="relative overflow-hidden mt-24 hidden lg:block">
-        <img src="/divider.png" alt="divider" className="w-full h-full" />
+        <img src="/Divider.png" alt="divider" className="w-full h-full" />
         <div className="absolute h-[705px] w-full right-0 top-0 bg-gradient-to-b from-white via-transparent to-transparent" />
       </div>
 
@@ -172,7 +172,7 @@ export default function Hero() {
       </section>
 
       <div className="relative overflow-hidden mb-24 rotate-180 -mt-[400px] hidden lg:block">
-        <img src="/divider.png" alt="divider" className="w-full h-full" />
+        <img src="/Divider.png" alt="divider" className="w-full h-full" />
         <div className="absolute h-[705px] w-full right-0 top-0 bg-gradient-to-b from-white via-transparent to-transparent" />
       </div>
 
@@ -236,7 +236,7 @@ export default function Hero() {
       </div>
 
       <div className="relative overflow-hidden mt-24 hidden lg:block">
-        <img src="/divider.png" alt="divider" className="w-full h-full" />
+        <img src="/Divider.png" alt="divider" className="w-full h-full" />
         <div className="absolute h-[705px] w-full right-0 top-0 bg-gradient-to-b from-white via-transparent to-transparent" />
       </div>
 
@@ -269,7 +269,7 @@ export default function Hero() {
       </section>
 
       <div className="relative overflow-hidden mb-24 rotate-180 -mt-[400px] hidden lg:block">
-        <img src="/divider.png" alt="divider" className="w-full h-full" />
+        <img src="/Divider.png" alt="divider" className="w-full h-full" />
         <div className="absolute h-[705px] w-full right-0 top-0 bg-gradient-to-b from-white via-transparent to-transparent" />
       </div>
 
