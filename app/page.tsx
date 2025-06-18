@@ -235,7 +235,7 @@ export default function Hero() {
               <div className="bg-white/90 rounded-2xl p-8 border text-center h-full flex flex-col justify-between">
                 <img
                   alt="Ravenna"
-                  src="/ravenna.png"
+                  src="/Ravenna.png"
                   width={248}
                   height={120}
                   className="max-h-13 w-full object-contain mb-8 mt-4"
