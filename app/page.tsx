@@ -224,7 +224,7 @@ export default function Hero() {
                   src="/same.svg"
                   width={248}
                   height={120}
-                  className="max-h-9 w-full object-contain mb-6 mt-8"
+                  className="max-h-9 w-full object-contain mb-2 mt-8"
                 />
                 <p className="text-gray-700 leading-relaxed">
                   A product that lets you make anything by letting you build
