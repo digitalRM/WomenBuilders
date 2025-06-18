@@ -7,6 +7,7 @@ import {
   Code,
   Coffee,
   MessageCircle,
+  ArrowUpRight,
 } from "lucide-react";
 
 // Speaker data
@@ -161,10 +162,10 @@ export default function Hero() {
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdLmCbwj1PJvqb23Lcy3XmvX_dS0kNdnpY48RYLBC7A_FBh0Q/viewform?usp=dialog"
                 target="_blank"
-                className="mt-4 block w-full text-center px-4 py-2 rounded-xl border text-xl font-medium transition-all tracking-tighter text-black max-w-lg mx-auto"
+                className="mt-4 block w-full text-center px-4 py-2 rounded-xl border text-xl font-medium transition-all tracking-tighter max-w-lg mx-auto bg-black text-white"
               >
                 Sign Up to Demo
-                <ArrowRight className="size-4 inline-block ml-2" />
+                <ArrowUpRight className="size-4 inline-block ml-2" />
               </a>
             </div>
           </div>
@@ -180,7 +181,7 @@ export default function Hero() {
       <div className="relative overflow-hidden">
         <div className="color-bg h-[50%] w-11/12 left-0 right-0 mx-auto absolute z-0 blur-[64px] transform-gpu opacity-50 top-36"></div>
         <section className="relative py-24 px-6 lg:px-8 bg-gray-50/50 backdrop-blur-md border">
-          <div className="mx-auto max-w-7xl">
+          <div className="mx-auto max-w-[1440px]">
             <div className="text-center mb-4">
               <p className="text-4xl text-center mx-auto mb-4">💖</p>
             </div>
@@ -188,7 +189,7 @@ export default function Hero() {
               Thank you to our amazing sponsors!
             </h2>
 
-            <div className="mx-auto mt-12 grid max-w-lg grid-cols-1 items-center gap-4 sm:max-w-xl sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <div className="mx-auto mt-12 grid max-w-lg grid-cols-1 items-center gap-4 sm:max-w-xl sm:grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-4">
               <div className="bg-white/90 rounded-2xl p-8 border text-center h-full flex flex-col justify-between">
                 <img
                   alt="Mintlify"
@@ -228,6 +229,21 @@ export default function Hero() {
                 <p className="text-gray-700 leading-relaxed">
                   A product that lets you make anything by letting you build
                   fullstack web apps with just a single prompt.
+                </p>
+              </div>
+
+              <div className="bg-white/90 rounded-2xl p-8 border text-center h-full flex flex-col justify-between">
+                <img
+                  alt="Ravenna"
+                  src="/ravenna.png"
+                  width={248}
+                  height={120}
+                  className="max-h-13 w-full object-contain mb-8 mt-4"
+                />
+                <p className="text-gray-700 leading-relaxed">
+                  Slack-first help desk for internal operations. Meet your
+                  colleagues on the platforms they love, let AI handle the heavy
+                  lifting.
                 </p>
               </div>
             </div>
