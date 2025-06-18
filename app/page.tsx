@@ -181,7 +181,7 @@ export default function Hero() {
       <div className="relative overflow-hidden">
         <div className="color-bg h-[50%] w-11/12 left-0 right-0 mx-auto absolute z-0 blur-[64px] transform-gpu opacity-50 top-36"></div>
         <section className="relative py-24 px-6 lg:px-8 bg-gray-50/50 backdrop-blur-md border">
-          <div className="mx-auto max-w-[1440px]">
+          <div className="mx-auto max-w-[1400px]">
             <div className="text-center mb-4">
               <p className="text-4xl text-center mx-auto mb-4">💖</p>
             </div>
@@ -224,7 +224,7 @@ export default function Hero() {
                   src="/same.svg"
                   width={248}
                   height={120}
-                  className="max-h-9 w-full object-contain mb-2 mt-8"
+                  className="max-h-9 w-full object-contain mb-6 mt-8"
                 />
                 <p className="text-gray-700 leading-relaxed">
                   A product that lets you make anything by letting you build
