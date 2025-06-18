@@ -159,11 +159,11 @@ export default function Hero() {
             </p>
             <div className="mt-8 h-12">
               <a
-                href="https://lu.ma/9o2p8m3j?tk=XSBBIk"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdLmCbwj1PJvqb23Lcy3XmvX_dS0kNdnpY48RYLBC7A_FBh0Q/viewform?usp=dialog"
                 target="_blank"
                 className="mt-4 block w-full text-center px-4 py-2 rounded-xl border text-xl font-medium transition-all tracking-tighter text-black max-w-lg mx-auto"
               >
-                RSVP Now
+                Sign Up to Demo
                 <ArrowRight className="size-4 inline-block ml-2" />
               </a>
             </div>
@@ -256,11 +256,11 @@ export default function Hero() {
             </p>
             <div className="mt-8 h-12">
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdLmCbwj1PJvqb23Lcy3XmvX_dS0kNdnpY48RYLBC7A_FBh0Q/viewform?usp=dialog"
+                href="https://lu.ma/9o2p8m3j?tk=XSBBIk"
                 target="_blank"
                 className="mt-4 block w-full text-center px-4 py-2 rounded-xl border text-xl font-medium transition-all tracking-tighter text-black max-w-lg mx-auto"
               >
-                Sign Up Now
+                RSVP Now
                 <ArrowRight className="size-4 inline-block ml-2" />
               </a>
             </div>
