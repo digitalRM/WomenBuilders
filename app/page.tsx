@@ -1,4 +1,4 @@
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight, X } from "lucide-react";
 
 // Speaker data
 const speakers = [
@@ -21,6 +21,29 @@ const speakers = [
 export default function Hero() {
   return (
     <div className="relative bg-white">
+      {/* Thank you banner */}
+      <div className="pointer-events-none fixed inset-x-0 bottom-0 sm:flex sm:justify-center sm:px-6 sm:pb-5 lg:px-8 z-50">
+        <div className="pointer-events-auto flex items-center justify-between gap-x-6 bg-neutral-100/70 backdrop-blur-2xl outline shadow-2xl px-6 py-2.5 sm:rounded-xl sm:py-3 sm:pl-4 sm:pr-3.5">
+          <p className="text-sm/6 text-black">
+            <a
+              href="https://photos.google.com/share/AF1QipPY8e9JHKwpNrNE8wAkMVFFhJsEHIU1lvSbVn8w1iyfVhosx7nfvuAp7KGOQRt__w?key=MkwydUU0S1FQTFc2R3cwOFlXTEJ1d1lvR3FLX2ZB"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong className="font-semibold">The event is over!</strong>
+              <svg
+                viewBox="0 0 2 2"
+                aria-hidden="true"
+                className="mx-2 inline size-0.5 fill-current"
+              >
+                <circle r={1} cx={1} cy={1} />
+              </svg>
+              Check out the photos here
+              <ArrowUpRight className="size-4 inline-block ml-1 -mt-0.5" />
+            </a>
+          </p>
+        </div>
+      </div>
       <section className="relative min-h-[1340px] flex flex-col bg-[url('/hello.png')] bg-cover bg-center p-4">
         <div className="absolute h-[705px] w-full right-0 bottom-0 bg-gradient-to-t from-white via-transparent to-transparent" />
         <div className="flex flex-col items-center justify-center mt-56">
