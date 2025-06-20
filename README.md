@@ -1,4 +1,5 @@
 # YC Women Builders - The After Party
+<img width="1776" alt="openGraph" src="https://github.com/user-attachments/assets/b7beb5f6-df23-4e9a-b87d-87db82110971" />
 
 A landing page for the YC Women Builders after-party event following Y Combinator's YC AI Startup School.
 
