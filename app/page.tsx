@@ -1,14 +1,4 @@
-import {
-  ArrowRight,
-  Sparkle,
-  Sparkles,
-  Users,
-  Mic,
-  Code,
-  Coffee,
-  MessageCircle,
-  ArrowUpRight,
-} from "lucide-react";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 // Speaker data
 const speakers = [
@@ -17,14 +7,14 @@ const speakers = [
     title: "Co-Founder @ Mintlify",
     website: "https://mintlify.com/",
     websiteText: "mintlify.com",
-    image: "/lee.jpg", // Placeholder for now
+    image: "/lee.jpg",
   },
   {
     name: "Aiden Bai",
     title: "Founder @ Same.dev",
     website: "https://same.dev/",
     websiteText: "same.dev",
-    image: "/bai.jpg", // Placeholder for now
+    image: "/bai.jpg",
   },
 ];
 
